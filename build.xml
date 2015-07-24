@@ -121,5 +121,14 @@
     <target name="install" depends="war">
         <mkdir dir="deploy"/>
         <copy file="${war.name}" todir="deploy"/>
-    </target>
+        
+        <delete dir="build"/>
+        <delete dir="lib"/>
+        <delete dir="src"/>
+        <delete dir="deploy"/>
+        <delete dir="gwt-unitCache"/>
+        <delete file="RELEASE_NOTES"/>        
+        <delete file="LICENSE"/>
+        <delete file="README.md"/>
+    </target>    
 </project>
