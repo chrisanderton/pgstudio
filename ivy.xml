@@ -18,6 +18,8 @@
           <artifact name="gcodemirror" url="https://gcodemirror.googlecode.com/files/gcodemirror-0.9.jar" />
         </dependency>
         <dependency org="org.vectomatic" name="lib-gwt-file" rev="0.3.4"/>
+        <dependency org="jetty" name="org.mortbay.jetty"/>
+        <dependency org="org.mortbay.jetty" name="jetty-ant"/>
     </dependencies>
 </ivy-module>
 

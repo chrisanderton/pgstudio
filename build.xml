@@ -119,9 +119,6 @@
     </target>
     <!-- Create the deployment packages (optional) -->
     <target name="install" depends="war">
-        <mkdir dir="deploy"/>
-        <copy file="${war.name}" todir="deploy"/>
-        
         <delete dir="build"/>
         <delete dir="lib"/>
         <delete dir="src"/>
@@ -131,5 +128,5 @@
         <delete file="RELEASE_NOTES"/>        
         <delete file="LICENSE"/>
         <delete file="README.md"/>
-    </target>    
+    </target>
 </project>
