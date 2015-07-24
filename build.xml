@@ -139,7 +139,7 @@
         <mkdir dir="deploy/${file.name}-src_${file.version}"/>
         <copy file="build.xml" todir="deploy/${file.name}-src_${file.version}"/>
         <copy file="ivy.xml" todir="deploy/${file.name}-src_${file.version}"/>
-        <copy file="README" todir="deploy/${file.name}-src_${file.version}"/>
+        <copy file="README.md" todir="deploy/${file.name}-src_${file.version}"/>
         <copy file="LICENSE" todir="deploy/${file.name}-src_${file.version}"/>
         <copy todir="deploy/${file.name}-src_${file.version}/src">
             <fileset dir="src"/>
