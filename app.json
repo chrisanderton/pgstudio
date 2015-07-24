@@ -2,7 +2,7 @@
     "addons": [],
     "buildpacks": [
         {
-            "url": "https://github.com/dennisg/heroku-buildpack-ant"
+            "url": "https://github.com/chrisanderton/heroku-buildpack-ant"
         }
     ],
     "description": "Web console for Postgres",
