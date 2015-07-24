@@ -1,0 +1,15 @@
+{
+  "name": "PGStudio",
+  "description": "Web console for Postgres",
+  "logo": "https://raw.githubusercontent.com/chrisanderton/pgstudio/master/src/images/logo.png"
+  "keywords": [
+    "postgres",
+    "pgstudio"
+  ],
+  "website": "http://www.postgresqlstudio.org",
+  "repository": "https://github.com/chrisanderton/pgstudio",
+  "env": {
+  },
+  "addons": [
+  ]
+}
