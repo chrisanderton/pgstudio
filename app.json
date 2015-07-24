@@ -1,15 +1,18 @@
 {
-  "name": "PGStudio",
-  "description": "Web console for Postgres",
-  "logo": "https://raw.githubusercontent.com/chrisanderton/pgstudio/master/src/images/logo.png",
-  "keywords": [
-    "postgres",
-    "pgstudio"
-  ],
-  "website": "http://www.postgresqlstudio.org",
-  "repository": "https://github.com/chrisanderton/pgstudio",
-  "env": {
-  },
-  "addons": [
-  ]
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/dennisg/heroku-buildpack-ant"
+        }
+    ],
+    "description": "Web console for Postgres",
+    "env": {},
+    "keywords": [
+        "postgres",
+        "pgstudio"
+    ],
+    "logo": "https://raw.githubusercontent.com/chrisanderton/pgstudio/master/src/images/logo.png",
+    "name": "PGStudio",
+    "repository": "https://github.com/chrisanderton/pgstudio",
+    "website": "http://www.postgresqlstudio.org"
 }
