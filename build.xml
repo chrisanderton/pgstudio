@@ -126,6 +126,7 @@
         <delete dir="lib"/>
         <delete dir="src"/>
         <delete dir="deploy"/>
+        <delete dir="war"/>
         <delete dir="gwt-unitCache"/>
         <delete file="RELEASE_NOTES"/>        
         <delete file="LICENSE"/>
