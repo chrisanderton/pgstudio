@@ -128,6 +128,6 @@
         <delete file="RELEASE_NOTES"/>        
         <delete file="LICENSE"/>
         <delete file="README.md"/>
-        <get src="http://repo2.maven.org/maven2/org/mortbay/jetty/jetty-runner/8.1.9.v20130131/jetty-runner-8.1.9.v20130131.jar" dest="${build.dir}"/>
+        <get src="http://repo2.maven.org/maven2/org/mortbay/jetty/jetty-runner/8.1.9.v20130131/jetty-runner-8.1.9.v20130131.jar" dest="jetty-runner.jar"/>
     </target>
 </project>
