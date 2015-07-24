@@ -12,5 +12,7 @@ lets you work with your databases without the need to open firewalls.
 
 Compilation
 -----------
+```
 > ant clean
 > ant deploy
+```
