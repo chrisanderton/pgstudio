@@ -138,7 +138,7 @@
     </target>
         
     <!-- Create the deployment packages (optional) -->
-	<target name="deploy" depends="war">
+	<target name="install" depends="war">
             <mkdir dir="deploy"/>
 	    <copy file="${war.name}" todir="deploy" />
 
